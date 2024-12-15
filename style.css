@@ -575,6 +575,7 @@ body.white-mode .footer ul li a:hover {
 
 @media (max-width: 760px) {
     /* Nav */
+
     .nav-header .nav {
         width: 23.2rem;
     }
@@ -582,14 +583,21 @@ body.white-mode .footer ul li a:hover {
     .nav-header .nav a {
         font-size: 0.68rem;
     }
+    
+    .nav-header .nav a {
+        background-color: blue;
+        font-size: 0.64rem;
+    }
 
     /* Titulo */
     .titulo {
         margin-top: -3.125rem;
         margin-bottom: 3.7rem;
+        background-color: red;
     }
 
     .titulo .titulo-contenido {
+        background-color: blue;
         width: 23rem;
     }
 
@@ -611,6 +619,7 @@ body.white-mode .footer ul li a:hover {
     }
 
     .titulo .titulo-contenido .lista-iconos {
+        background-color: green;
         padding-top: 1rem;
     }
 
@@ -626,6 +635,7 @@ body.white-mode .footer ul li a:hover {
     /* Proyecto */
     .proyectos {
         margin-bottom: 4.04rem;
+        background-color: red;
     }
 
     .proyectos h2 {
@@ -635,13 +645,15 @@ body.white-mode .footer ul li a:hover {
     }
 
     .proyectos .proyectos-container {
-        width: 25.375rem;
+        background-color: blue;
+        width: 20.375rem;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 4rem;
     }
 
     .proyectos .proyectos-container .card-proyecto {
+        background-color: green;
         padding: 1rem;
     }
 
@@ -666,6 +678,7 @@ body.white-mode .footer ul li a:hover {
     .experiencia {
         margin-bottom: 5.04rem;
         width: 22rem;
+        background-color: red;
     }
 
     .experiencia h2 {
@@ -675,10 +688,12 @@ body.white-mode .footer ul li a:hover {
     }
 
     .experiencia .lista-exp {
+        background-color: blue;
         width: 22rem;
     }
 
     .experiencia .lista-exp .li-lista {
+        background-color: green;
         padding-left: 1.15rem;
         padding-bottom: 2.3rem;
     }
@@ -696,6 +711,7 @@ body.white-mode .footer ul li a:hover {
     /* Sobre mi */
     .sobremi {
         margin-bottom: 3rem;
+        background-color: red;
     }
 
     .sobremi h2 {
@@ -705,6 +721,7 @@ body.white-mode .footer ul li a:hover {
     }
 
     .sobremi .sobremi-container {
+        background-color: blue;
         display: flex;
         flex-direction: column-reverse;
         justify-content: center;
@@ -713,6 +730,7 @@ body.white-mode .footer ul li a:hover {
     }
 
     .sobremi .sobremi-container .texto-sobremi {
+        background-color: violet;
         width: 22rem;
         display: flex;
         flex-direction: column;
