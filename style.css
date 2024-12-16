@@ -8,20 +8,12 @@
 html, body {
     background: linear-gradient(to bottom, #1B1F37, #091022, #030712);
     color: white;
+    font-family: "Lexend", sans-serif;
     transition: all 0.8s ease;
-    width: 100%;
     overflow-x: hidden;
 }
 
-img, video {
-    max-width: 100%;
-    height: auto;
-}
-
 .contenido {
-    max-width: 100%;
-    padding-right: 6.25rem;
-    padding-left: 6.25rem;
     padding-top: 11.25rem;
     display: flex;
     flex-direction: column;
@@ -36,8 +28,6 @@ img, video {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Lexend", sans-serif;
-    position: fixed;
     top: 1.25rem;
     left: 50%;
     z-index: 10;
@@ -59,7 +49,6 @@ img, video {
     text-decoration: none;
     color: white;
     font-size: 0.938rem;
-    font-family: "Lexend", sans-serif;
     margin: 0.625rem;
     transition: color 0.2s ease;
 }
@@ -71,7 +60,6 @@ img, video {
 
 /* Titulo */
 .titulo {
-    font-family: "Lexend", sans-serif;
     margin-bottom: 9.375rem;
     display: flex;
     justify-content: center;
@@ -131,18 +119,18 @@ img, video {
     justify-content: center;
     text-decoration: none;
     gap: 0.5rem;
-    border: 0.063 solid black;
+    border: 0.063rem solid black;
     border-radius: 0.313rem;
     padding: 0.438rem;
-    color: white;
-    background-color: #1F2937;
+    color: black;
+    background-color: #F3F4F6;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .boton:hover {
     cursor: pointer;
-    background-color: #F3F4F6;
-    color: black;
+    background-color: #1F2937;
+    color: white;
 }
 
 /* Proyectos */
@@ -151,7 +139,6 @@ img, video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Lexend", sans-serif;
     margin-bottom: 6.563rem;
 }
 
@@ -201,7 +188,6 @@ img, video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Lexend", sans-serif;
     margin-bottom: 6.563rem;
 }
 
@@ -261,7 +247,6 @@ img, video {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-family: "Lexend", sans-serif;
     margin-bottom: 6.563rem;
 }
 
@@ -296,12 +281,10 @@ img, video {
     background-color: #373B44;
     border: 0.125rem solid #65676d;
     border-radius: 0.625rem;
-    transform: rotate(3deg);
 }
 
 /* Footer */
 .footer {
-    font-family: "Lexend", sans-serif;
     color: #c5c8cf;
 }
 
@@ -322,7 +305,6 @@ img, video {
 
 .footer ul {
     display: flex;
-    flex-direction: row;
     align-items: end;
     justify-content: end;
     list-style: none;
@@ -336,7 +318,6 @@ img, video {
     font-size: 0.875rem;
     text-decoration: none;
     color: #c5c8cf;
-    font-family: "Lexend", sans-serif;
 }
 
 .footer ul li a:hover {
@@ -348,38 +329,41 @@ img, video {
 body.white-mode {
     background: linear-gradient(to bottom, #F0EFFD, #f7fdfd, #FEFFFF);
     color: black;
-    transition: all 0.8s ease;
+    font-family: "Lexend", sans-serif;
 }
 
 body.white-mode .nav-header .nav {
     background-color: #F0EFFD;
-    border-radius: 1.125rem;
 }
 
 body.white-mode .nav-header .nav a {
     color: black;
-    transition: color 0.3s ease;
 }
 
 body.white-mode .nav-header .nav a:hover {
-    cursor: pointer;
-    color: #4286F6;
+    color: #3d85fa;
 }
 
 body.white-mode .footer span {
-    margin: 1.875rem 0 1.875rem 0;
     color: #303030;
 }
 
 body.white-mode .footer ul li a {
-    text-decoration: none;
     color: #303030;
-    font-family: "Lexend", sans-serif;
 }
 
 body.white-mode .footer ul li a:hover {
-    cursor: pointer;
-    border-bottom: 1px solid #303030;
+    border-bottom: 0.063rem solid #303030;
+}
+
+body.white-mode .boton {
+    color: white;
+    background-color: #1F2937;
+}
+
+body.white-mode .boton:hover {
+    background-color: #F3F4F6;
+    color: black;
 }
 
 /* Responsive */
