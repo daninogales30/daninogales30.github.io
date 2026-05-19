@@ -155,6 +155,11 @@ html, body {
     gap: 11.875rem 11.875rem;
 }
 
+.proyectos .proyectos-container .card-proyecto:last-child {
+    grid-column: 1 / -1;   /* Ocupa todo el ancho de la cuadrícula (las dos columnas) */
+    justify-self: center;  /* Centra la tarjeta dentro de ese espacio */       /* Mantiene el ancho según su contenido */
+}
+
 .proyectos .proyectos-container .card-proyecto {
     display: flex;
     flex-direction: column;
