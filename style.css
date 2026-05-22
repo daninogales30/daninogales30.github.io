@@ -173,9 +173,14 @@ html, body {
 }
 
 .proyectos .proyectos-container .card-proyecto img {
-    width: 6.25rem;
-    height: 6.25rem;
+    width: 17rem;
+    height: 17rem;
     margin-bottom: 0.625rem;
+}
+
+#barber {
+    width: 40rem;
+    height: auto;
 }
 
 .proyectos .proyectos-container .card-proyecto h3 {
