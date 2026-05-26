@@ -651,8 +651,8 @@ body.white-mode .circulo {
 
     .proyectos .proyectos-container {
         width: 20.375rem;
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
+        flex-direction: column; 
         gap: 4rem;
     }
 
@@ -664,6 +664,7 @@ body.white-mode .circulo {
         width: 13rem;
         height: 13rem;
         margin-bottom: 0.575rem;
+        max-width: 13rem;
     }
 
     .proyectos .proyectos-container .card-proyecto h3 {
